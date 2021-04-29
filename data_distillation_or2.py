@@ -125,7 +125,7 @@ def main():
         model = M.LeNetMeta(args).to(device=device)
     optimizer = torch.optim.Adam(model.parameters())
 
-    create_json_experiment_log()
+#     create_json_experiment_log()
 
     # start measuring time
     start_time = time.time()
