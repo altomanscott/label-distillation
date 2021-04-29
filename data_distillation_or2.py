@@ -179,7 +179,7 @@ def main():
             if epoch == args.epochs - 1:
                 experiment_update_dict['data'] = best_distill_data.tolist()
 
-            update_json_experiment_log_dict(experiment_update_dict)
+#             update_json_experiment_log_dict(experiment_update_dict)
 
     print('Best val error (top-1 error):', best_err1)
 
